@@ -37,16 +37,23 @@ function CustomFileInput(props) {
 
   return (
     <div className="file-input">
-      <button className="primary-button" onClick={handleUploadClick}>
+      <button
+        className="primary-button"
+        onClick={handleUploadClick}
+        data-testid="submit-button"
+      >
         Upload XML file
       </button>
+
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
       <input
         type="file"
         ref={inputRef}
         onChange={handleFileChange}
         style={{ display: "none" }}
         accept="text/xml"
+        data-testid="file-input"
       />
     </div>
   );
