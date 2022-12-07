@@ -1,0 +1,53 @@
+ul {
+  list-style: none;
+  border-left: 1px solid;
+  padding-left: 0.5rem;
+  position: relative;
+}
+
+li {
+  padding: 0.3rem;
+}
+
+span {
+  display: flex;
+  padding-left: 2rem;
+}
+
+.file-input {
+  grid-column: span 4;
+  text-align: center;
+  padding: 3rem 3rem 0rem 3rem;
+}
+
+.tree-node.shrink:before {
+  content: "+";
+  color: black;
+  display: inline-block;
+  border: 1px solid;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  margin-right: 0.2rem;
+  background-color: #a3e635;
+}
+
+.tree-node:before {
+  content: "-";
+  color: black;
+  display: inline-block;
+  border: 1px solid;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  margin-right: 0.2rem;
+  background-color: #fca5a5;
+}
+
+.tree-node.shrink > * li {
+  display: none;
+}
+
+.tree-node.shrink > * span {
+  display: none;
+}
