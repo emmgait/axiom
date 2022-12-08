@@ -17,7 +17,7 @@ function App() {
       <div className="container">
         <div className="row">
           <FileUpload getXmlTree={getXmlTree} />
-          {xmlTree && <TreeView policyTree={xmlTree} />}
+          <TreeView policyTree={xmlTree} />
         </div>
       </div>
     </main>

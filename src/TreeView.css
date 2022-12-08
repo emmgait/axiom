@@ -7,7 +7,14 @@ span {
 
 .tree-view {
   grid-column: span 8;
-  padding: 0rem 8rem;
+  border-radius: 1rem;
+  background: #67e8f9;
+  min-height: 32rem;
+  max-height: 64rem;
+  overflow: auto;
+  box-shadow: 0px 0.2rem #d6d3d1;
+  padding: 0rem 3rem;
+  margin-top: 3rem;
 }
 
 .primary-button {
@@ -17,10 +24,4 @@ span {
   border-radius: 0.5rem;
   color: #fff;
   box-shadow: 0px 0.2rem #d6d3d1;
-}
-
-@media only screen and (max-width: 820px) {
-  .tree-view {
-    padding: 0rem;
-  }
 }
