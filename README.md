@@ -2,11 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Find this coding challenge at [Github](https://github.com/emmgait/axiom).
+
 ## Installation
 
 ### `Prerequisite`
 
-Node v18.0
+Node v16.0
 
 ### `npm install`
 
